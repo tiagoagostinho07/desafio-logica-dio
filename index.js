@@ -6,12 +6,10 @@ const herois = [
     { nome: "Djow", xp: 12000 }
 ];
 
-// Laço de repetição
 for (let i = 0; i < herois.length; i++) {
     let nome = herois[i].nome;
     let xp = herois[i].xp;
     let nivel = "";
-
 
     if (xp < 1000) {
         nivel = 'Ferro'
